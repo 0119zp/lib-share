@@ -4,6 +4,7 @@ buildscript {
     repositories {
         google()
         jcenter()
+        maven { url "https://dl.bintray.com/thelasterstar/maven/" }
         
     }
     dependencies {
@@ -18,10 +19,16 @@ allprojects {
     repositories {
         google()
         jcenter()
-        
+        maven { url "https://dl.bintray.com/thelasterstar/maven/" }
     }
 }
 
 task clean(type: Delete) {
     delete rootProject.buildDir
+}
+
+ext {
+    // share weixin key
+    shareWeixinDebugKey = "\"wxefd9e702b53e9256\""
+    shareWeixinReleaseKey = "\"wxad2aff8b2919a3c2\""
 }

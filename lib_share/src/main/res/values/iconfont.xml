@@ -1,0 +1,11 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+
+    <string name="ic_weixin">&#xe652;</string>
+    <string name="ic_weixin_circle">&#xe63f;</string>
+    <string name="ic_weibo">&#xe653;</string>
+    <string name="ic_qq">&#xe656;</string>
+    <string name="ic_qzone">&#xe603;</string>
+    <string name="ic_share_messagr">&#xe61d;</string>
+
+</resources>

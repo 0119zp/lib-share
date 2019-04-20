@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">sharelib</string>
+
+    <string name="share_platform_wechat" tools:ignore="ExtraTranslation">微信好友</string>
+    <string name="share_platform_wechat_circle">微信朋友圈</string>
+    <string name="share_platform_weibo">新浪微博</string>
+    <string name="share_platform_qq">QQ好友</string>
+    <string name="share_platform_qzone">QQ空间</string>
+    <string name="share_platform_msg">短消息</string>
+    <string name="share_platform_copy">复制链接</string>
+
+    <string name="share_copy_copyed">已复制到剪贴板</string>
+    <string name="share_auth_fail">授权失败</string>
+
+    <string name="share_success">分享成功</string>
+    <string name="share_failure">分享失败</string>
+    <string name="share_canceled">分享取消</string>
+
+    <string name="sns_wb_not_install">请安装微博后再分享！</string>
+    <string name="sns_wb_not_official">安装的微博客户端为非官⽅方客户端</string>
+    <string name="sns_wb_sign_notsame">开放平台填写的签名和程序签名不⼀致</string>
+
+    <string name="sns_qq_not_install">请安装QQ后再分享！</string>
+    <string name="sns_weixin_not_install">请安装微信后再分享！</string>
+    <string name="sns_weixin_circle_not_support">该微信版本不支持朋友圈分享</string>
+
+</resources>
